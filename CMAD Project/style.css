@@ -1,0 +1,41 @@
+
+            body{  background: url("wallpaper1.jpg") no-repeat 
+
+             }
+                 .container{
+                margin-top: 240px;
+                margin-left: 675px;
+                color: whitesmoke;
+             }  
+
+            img {
+                    border-radius: 50%;
+                    margin-bottom: 10px;
+                }
+            
+            #Sign:hover{
+                color: tomato ;
+            }
+
+             #tab{
+                 margin-top: -300px;
+                margin-left: 1080px; 
+                color: whitesmoke;
+             }
+
+             #sur{
+                 padding: 5px;
+                 border: 2px solid red;
+                 border-radius: 12px;
+                 margin-top: -300px;
+                 margin-left: 15px; 
+                 color: whitesmoke;
+             }
+             #gen{
+                  padding: 20px;
+             }
+             /* .container1{
+                 padding-left: 1300px;
+                 height: 100% ; 
+                 width: 150%;
+             } */

@@ -1,0 +1,80 @@
+   /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 140%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 5px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 5px;
+      }
+      .row.content {height:auto;} 
+    }
+    .TestTopic {
+        padding: 100px;
+    }
+    #p1{
+        padding: 10px;
+    }
+    #sur{
+                 padding: 5px;
+                 border: 3px solid rgb(13, 40, 75);
+                 border-radius: 12px; 
+                 color: rgb(36, 30, 65);
+                 font-size: 15px;
+                 font-weight: 1000;  
+             }
+    
+             blink {
+    -webkit-animation: 2s linear infinite condemned_blink_effect; // for android
+    animation: 2s linear infinite condemned_blink_effect;
+}
+@-webkit-keyframes condemned_blink_effect {  for android
+{
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+}
+@keyframes condemned_blink_effect {
+    0% {
+        visibility: hidden;
+    }
+    50% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+}
+.hm{
+    color: rgb(46, 45, 45);
+    margin-left: 30px;
+    font: bold ;
+}
+.hm2{
+    margin-left: 15px;
+}
